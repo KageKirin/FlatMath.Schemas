@@ -1,5 +1,7 @@
 # FLATMATH
 
+![FlatMath Logo](./Logo.png)
+
 Flatbuffer serialization for [GLM](http://glm.g-truc.net/) types.
 
 ## Usage intention
