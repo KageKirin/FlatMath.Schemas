@@ -1,0 +1,8 @@
+{
+  "solution": {
+    "path": "FlatMath.Schemas.sln",
+    "projects": [
+      "FlatMath.Schemas\\FlatMath.Schemas.csproj"
+    ]
+  }
+}
