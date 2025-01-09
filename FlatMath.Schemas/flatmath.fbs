@@ -36,65 +36,65 @@ struct Quaternion_f32(native_inline, native_type: "glm::quat") {
 
 /// 2x2 matrix of floats
 struct Matrix2x2_f32(native_inline, native_type: "glm::mat2x2") {
-	_0: Vector2_f32(native_default: "1,0");
-	_1: Vector2_f32(native_default: "0,1");
+	c0: Vector2_f32(native_default: "1,0");
+	c1: Vector2_f32(native_default: "0,1");
 }
 
 /// 2x3 matrix of floats
 struct Matrix2x3_f32(native_inline, native_type: "glm::mat2x3") {
-	_0: Vector3_f32(native_default: "1,0,0");
-	_1: Vector3_f32(native_default: "0,1,0");
+	c0: Vector3_f32(native_default: "1,0,0");
+	c1: Vector3_f32(native_default: "0,1,0");
 }
 
 /// 2x4 matrix of floats
 struct Matrix2x4_f32(native_inline, native_type: "glm::mat2x4") {
-	_0: Vector4_f32(native_default: "1,0,0,0");
-	_1: Vector4_f32(native_default: "0,1,0,0");
+	c0: Vector4_f32(native_default: "1,0,0,0");
+	c1: Vector4_f32(native_default: "0,1,0,0");
 }
 
 /// 3x2 matrix of floats
 struct Matrix3x2_f32(native_inline, native_type: "glm::mat3x2") {
-	_0: Vector2_f32(native_default: "1,0");
-	_1: Vector2_f32(native_default: "0,1");
-	_2: Vector2_f32(native_default: "0,0");
+	c0: Vector2_f32(native_default: "1,0");
+	c1: Vector2_f32(native_default: "0,1");
+	c2: Vector2_f32(native_default: "0,0");
 }
 
 /// 3x3 matrix of floats
 struct Matrix3x3_f32(native_inline, native_type: "glm::mat3x3") {
-	_0: Vector3_f32(native_default: "1,0,0");
-	_1: Vector3_f32(native_default: "0,1,0");
-	_2: Vector3_f32(native_default: "0,0,1");
+	c0: Vector3_f32(native_default: "1,0,0");
+	c1: Vector3_f32(native_default: "0,1,0");
+	c2: Vector3_f32(native_default: "0,0,1");
 }
 
 /// 3x4 matrix of floats
 struct Matrix3x4_f32(native_inline, native_type: "glm::mat3x4") {
-	_0: Vector4_f32(native_default: "1,0,0,0");
-	_1: Vector4_f32(native_default: "0,1,0,0");
-	_2: Vector4_f32(native_default: "0,0,1,0");
+	c0: Vector4_f32(native_default: "1,0,0,0");
+	c1: Vector4_f32(native_default: "0,1,0,0");
+	c2: Vector4_f32(native_default: "0,0,1,0");
 }
 
 /// 4x2 matrix of floats
 struct Matrix4x2_f32(native_inline, native_type: "glm::mat4x2") {
-	_0: Vector2_f32(native_default: "1,0");
-	_1: Vector2_f32(native_default: "0,1");
-	_2: Vector2_f32(native_default: "0,0");
-	_3: Vector2_f32(native_default: "0,0");
+	c0: Vector2_f32(native_default: "1,0");
+	c1: Vector2_f32(native_default: "0,1");
+	c2: Vector2_f32(native_default: "0,0");
+	c3: Vector2_f32(native_default: "0,0");
 }
 
 /// 4x3 matrix of floats
 struct Matrix4x3_f32(native_inline, native_type: "glm::mat4x3") {
-	_0: Vector3_f32(native_default: "1,0,0");
-	_1: Vector3_f32(native_default: "0,1,0");
-	_2: Vector3_f32(native_default: "0,0,1");
-	_3: Vector3_f32(native_default: "0,0,0");
+	c0: Vector3_f32(native_default: "1,0,0");
+	c1: Vector3_f32(native_default: "0,1,0");
+	c2: Vector3_f32(native_default: "0,0,1");
+	c3: Vector3_f32(native_default: "0,0,0");
 }
 
 /// 4x4 matrix of floats
 struct Matrix4x4_f32(native_inline, native_type: "glm::mat4x4") {
-	_0: Vector4_f32(native_default: "1,0,0,0");
-	_1: Vector4_f32(native_default: "0,1,0,0");
-	_2: Vector4_f32(native_default: "0,0,1,0");
-	_3: Vector4_f32(native_default: "0,0,0,1");
+	c0: Vector4_f32(native_default: "1,0,0,0");
+	c1: Vector4_f32(native_default: "0,1,0,0");
+	c2: Vector4_f32(native_default: "0,0,1,0");
+	c3: Vector4_f32(native_default: "0,0,0,1");
 }
 
 ///-----------------------------------------------------------------------------
@@ -132,65 +132,65 @@ struct Quaternion_i32(native_inline, native_type: "glm::i32quat") {
 
 /// 2x2 matrix of ints
 struct Matrix2x2_i32(native_inline, native_type: "glm::imat2x2") {
-	_0: Vector2_i32(native_default: "1,0");
-	_1: Vector2_i32(native_default: "0,1");
+	c0: Vector2_i32(native_default: "1,0");
+	c1: Vector2_i32(native_default: "0,1");
 }
 
 /// 2x3 matrix of ints
 struct Matrix2x3_i32(native_inline, native_type: "glm::imat2x3") {
-	_0: Vector3_i32(native_default: "1,0,0");
-	_1: Vector3_i32(native_default: "0,1,0");
+	c0: Vector3_i32(native_default: "1,0,0");
+	c1: Vector3_i32(native_default: "0,1,0");
 }
 
 /// 2x4 matrix of ints
 struct Matrix2x4_i32(native_inline, native_type: "glm::imat2x4") {
-	_0: Vector4_i32(native_default: "1,0,0,0");
-	_1: Vector4_i32(native_default: "0,1,0,0");
+	c0: Vector4_i32(native_default: "1,0,0,0");
+	c1: Vector4_i32(native_default: "0,1,0,0");
 }
 
 /// 3x2 matrix of ints
 struct Matrix3x2_i32(native_inline, native_type: "glm::imat3x2") {
-	_0: Vector2_i32(native_default: "1,0");
-	_1: Vector2_i32(native_default: "0,1");
-	_2: Vector2_i32(native_default: "0,0");
+	c0: Vector2_i32(native_default: "1,0");
+	c1: Vector2_i32(native_default: "0,1");
+	c2: Vector2_i32(native_default: "0,0");
 }
 
 /// 3x3 matrix of ints
 struct Matrix3x3_i32(native_inline, native_type: "glm::imat3x3") {
-	_0: Vector3_i32(native_default: "1,0,0");
-	_1: Vector3_i32(native_default: "0,1,0");
-	_2: Vector3_i32(native_default: "0,0,1");
+	c0: Vector3_i32(native_default: "1,0,0");
+	c1: Vector3_i32(native_default: "0,1,0");
+	c2: Vector3_i32(native_default: "0,0,1");
 }
 
 /// 3x4 matrix of ints
 struct Matrix3x4_i32(native_inline, native_type: "glm::imat3x4") {
-	_0: Vector4_i32(native_default: "1,0,0,0");
-	_1: Vector4_i32(native_default: "0,1,0,0");
-	_2: Vector4_i32(native_default: "0,0,1,0");
+	c0: Vector4_i32(native_default: "1,0,0,0");
+	c1: Vector4_i32(native_default: "0,1,0,0");
+	c2: Vector4_i32(native_default: "0,0,1,0");
 }
 
 /// 4x2 matrix of ints
 struct Matrix4x2_i32(native_inline, native_type: "glm::imat4x2") {
-	_0: Vector2_i32(native_default: "1,0");
-	_1: Vector2_i32(native_default: "0,1");
-	_2: Vector2_i32(native_default: "0,0");
-	_3: Vector2_i32(native_default: "0,0");
+	c0: Vector2_i32(native_default: "1,0");
+	c1: Vector2_i32(native_default: "0,1");
+	c2: Vector2_i32(native_default: "0,0");
+	c3: Vector2_i32(native_default: "0,0");
 }
 
 /// 4x3 matrix of ints
 struct Matrix4x3_i32(native_inline, native_type: "glm::imat4x3") {
-	_0: Vector3_i32(native_default: "1,0,0");
-	_1: Vector3_i32(native_default: "0,1,0");
-	_2: Vector3_i32(native_default: "0,0,1");
-	_3: Vector3_i32(native_default: "0,0,0");
+	c0: Vector3_i32(native_default: "1,0,0");
+	c1: Vector3_i32(native_default: "0,1,0");
+	c2: Vector3_i32(native_default: "0,0,1");
+	c3: Vector3_i32(native_default: "0,0,0");
 }
 
 /// 4x4 matrix of ints
 struct Matrix4x4_i32(native_inline, native_type: "glm::imat4x4") {
-	_0: Vector4_i32(native_default: "1,0,0,0");
-	_1: Vector4_i32(native_default: "0,1,0,0");
-	_2: Vector4_i32(native_default: "0,0,1,0");
-	_3: Vector4_i32(native_default: "0,0,0,1");
+	c0: Vector4_i32(native_default: "1,0,0,0");
+	c1: Vector4_i32(native_default: "0,1,0,0");
+	c2: Vector4_i32(native_default: "0,0,1,0");
+	c3: Vector4_i32(native_default: "0,0,0,1");
 }
 
 ///-----------------------------------------------------------------------------
@@ -228,65 +228,65 @@ struct Quaternion_u32(native_inline, native_type: "glm::uquat") {
 
 /// 2x2 matrix of uints
 struct Matrix2x2_u32(native_inline, native_type: "glm::umat2x2") {
-	_0: Vector2_u32(native_default: "1,0");
-	_1: Vector2_u32(native_default: "0,1");
+	c0: Vector2_u32(native_default: "1,0");
+	c1: Vector2_u32(native_default: "0,1");
 }
 
 /// 2x3 matrix of uints
 struct Matrix2x3_u32(native_inline, native_type: "glm::umat2x3") {
-	_0: Vector3_u32(native_default: "1,0,0");
-	_1: Vector3_u32(native_default: "0,1,0");
+	c0: Vector3_u32(native_default: "1,0,0");
+	c1: Vector3_u32(native_default: "0,1,0");
 }
 
 /// 2x4 matrix of uints
 struct Matrix2x4_u32(native_inline, native_type: "glm::umat2x4") {
-	_0: Vector4_u32(native_default: "1,0,0,0");
-	_1: Vector4_u32(native_default: "0,1,0,0");
+	c0: Vector4_u32(native_default: "1,0,0,0");
+	c1: Vector4_u32(native_default: "0,1,0,0");
 }
 
 /// 3x2 matrix of uints
 struct Matrix3x2_u32(native_inline, native_type: "glm::umat3x2") {
-	_0: Vector2_u32(native_default: "1,0");
-	_1: Vector2_u32(native_default: "0,1");
-	_2: Vector2_u32(native_default: "0,0");
+	c0: Vector2_u32(native_default: "1,0");
+	c1: Vector2_u32(native_default: "0,1");
+	c2: Vector2_u32(native_default: "0,0");
 }
 
 /// 3x3 matrix of uints
 struct Matrix3x3_u32(native_inline, native_type: "glm::umat3x3") {
-	_0: Vector3_u32(native_default: "1,0,0");
-	_1: Vector3_u32(native_default: "0,1,0");
-	_2: Vector3_u32(native_default: "0,0,1");
+	c0: Vector3_u32(native_default: "1,0,0");
+	c1: Vector3_u32(native_default: "0,1,0");
+	c2: Vector3_u32(native_default: "0,0,1");
 }
 
 /// 3x4 matrix of uints
 struct Matrix3x4_u32(native_inline, native_type: "glm::umat3x4") {
-	_0: Vector4_u32(native_default: "1,0,0,0");
-	_1: Vector4_u32(native_default: "0,1,0,0");
-	_2: Vector4_u32(native_default: "0,0,1,0");
+	c0: Vector4_u32(native_default: "1,0,0,0");
+	c1: Vector4_u32(native_default: "0,1,0,0");
+	c2: Vector4_u32(native_default: "0,0,1,0");
 }
 
 /// 4x2 matrix of uints
 struct Matrix4x2_u32(native_inline, native_type: "glm::umat4x2") {
-	_0: Vector2_u32(native_default: "1,0");
-	_1: Vector2_u32(native_default: "0,1");
-	_2: Vector2_u32(native_default: "0,0");
-	_3: Vector2_u32(native_default: "0,0");
+	c0: Vector2_u32(native_default: "1,0");
+	c1: Vector2_u32(native_default: "0,1");
+	c2: Vector2_u32(native_default: "0,0");
+	c3: Vector2_u32(native_default: "0,0");
 }
 
 /// 4x3 matrix of uints
 struct Matrix4x3_u32(native_inline, native_type: "glm::umat4x3") {
-	_0: Vector3_u32(native_default: "1,0,0");
-	_1: Vector3_u32(native_default: "0,1,0");
-	_2: Vector3_u32(native_default: "0,0,1");
-	_3: Vector3_u32(native_default: "0,0,0");
+	c0: Vector3_u32(native_default: "1,0,0");
+	c1: Vector3_u32(native_default: "0,1,0");
+	c2: Vector3_u32(native_default: "0,0,1");
+	c3: Vector3_u32(native_default: "0,0,0");
 }
 
 /// 4x4 matrix of uints
 struct Matrix4x4_u32(native_inline, native_type: "glm::umat4x4") {
-	_0: Vector4_u32(native_default: "1,0,0,0");
-	_1: Vector4_u32(native_default: "0,1,0,0");
-	_2: Vector4_u32(native_default: "0,0,1,0");
-	_3: Vector4_u32(native_default: "0,0,0,1");
+	c0: Vector4_u32(native_default: "1,0,0,0");
+	c1: Vector4_u32(native_default: "0,1,0,0");
+	c2: Vector4_u32(native_default: "0,0,1,0");
+	c3: Vector4_u32(native_default: "0,0,0,1");
 }
 
 ///-----------------------------------------------------------------------------
@@ -324,65 +324,65 @@ struct Quaternion_i16(native_inline, native_type: "glm::i16quat") {
 
 /// 2x2 matrix of shorts
 struct Matrix2x2_i16(native_inline, native_type: "glm::i16mat2x2") {
-	_0: Vector2_i16(native_default: "1,0");
-	_1: Vector2_i16(native_default: "0,1");
+	c0: Vector2_i16(native_default: "1,0");
+	c1: Vector2_i16(native_default: "0,1");
 }
 
 /// 2x3 matrix of shorts
 struct Matrix2x3_i16(native_inline, native_type: "glm::i16mat2x3") {
-	_0: Vector3_i16(native_default: "1,0,0");
-	_1: Vector3_i16(native_default: "0,1,0");
+	c0: Vector3_i16(native_default: "1,0,0");
+	c1: Vector3_i16(native_default: "0,1,0");
 }
 
 /// 2x4 matrix of shorts
 struct Matrix2x4_i16(native_inline, native_type: "glm::i16mat2x4") {
-	_0: Vector4_i16(native_default: "1,0,0,0");
-	_1: Vector4_i16(native_default: "0,1,0,0");
+	c0: Vector4_i16(native_default: "1,0,0,0");
+	c1: Vector4_i16(native_default: "0,1,0,0");
 }
 
 /// 3x2 matrix of shorts
 struct Matrix3x2_i16(native_inline, native_type: "glm::i16mat3x2") {
-	_0: Vector2_i16(native_default: "1,0");
-	_1: Vector2_i16(native_default: "0,1");
-	_2: Vector2_i16(native_default: "0,0");
+	c0: Vector2_i16(native_default: "1,0");
+	c1: Vector2_i16(native_default: "0,1");
+	c2: Vector2_i16(native_default: "0,0");
 }
 
 /// 3x3 matrix of shorts
 struct Matrix3x3_i16(native_inline, native_type: "glm::i16mat3x3") {
-	_0: Vector3_i16(native_default: "1,0,0");
-	_1: Vector3_i16(native_default: "0,1,0");
-	_2: Vector3_i16(native_default: "0,0,1");
+	c0: Vector3_i16(native_default: "1,0,0");
+	c1: Vector3_i16(native_default: "0,1,0");
+	c2: Vector3_i16(native_default: "0,0,1");
 }
 
 /// 3x4 matrix of shorts
 struct Matrix3x4_i16(native_inline, native_type: "glm::i16mat3x4") {
-	_0: Vector4_i16(native_default: "1,0,0,0");
-	_1: Vector4_i16(native_default: "0,1,0,0");
-	_2: Vector4_i16(native_default: "0,0,1,0");
+	c0: Vector4_i16(native_default: "1,0,0,0");
+	c1: Vector4_i16(native_default: "0,1,0,0");
+	c2: Vector4_i16(native_default: "0,0,1,0");
 }
 
 /// 4x2 matrix of shorts
 struct Matrix4x2_i16(native_inline, native_type: "glm::i16mat4x2") {
-	_0: Vector2_i16(native_default: "1,0");
-	_1: Vector2_i16(native_default: "0,1");
-	_2: Vector2_i16(native_default: "0,0");
-	_3: Vector2_i16(native_default: "0,0");
+	c0: Vector2_i16(native_default: "1,0");
+	c1: Vector2_i16(native_default: "0,1");
+	c2: Vector2_i16(native_default: "0,0");
+	c3: Vector2_i16(native_default: "0,0");
 }
 
 /// 4x3 matrix of shorts
 struct Matrix4x3_i16(native_inline, native_type: "glm::i16mat4x3") {
-	_0: Vector3_i16(native_default: "1,0,0");
-	_1: Vector3_i16(native_default: "0,1,0");
-	_2: Vector3_i16(native_default: "0,0,1");
-	_3: Vector3_i16(native_default: "0,0,0");
+	c0: Vector3_i16(native_default: "1,0,0");
+	c1: Vector3_i16(native_default: "0,1,0");
+	c2: Vector3_i16(native_default: "0,0,1");
+	c3: Vector3_i16(native_default: "0,0,0");
 }
 
 /// 4x4 matrix of shorts
 struct Matrix4x4_i16(native_inline, native_type: "glm::i16mat4x4") {
-	_0: Vector4_i16(native_default: "1,0,0,0");
-	_1: Vector4_i16(native_default: "0,1,0,0");
-	_2: Vector4_i16(native_default: "0,0,1,0");
-	_3: Vector4_i16(native_default: "0,0,0,1");
+	c0: Vector4_i16(native_default: "1,0,0,0");
+	c1: Vector4_i16(native_default: "0,1,0,0");
+	c2: Vector4_i16(native_default: "0,0,1,0");
+	c3: Vector4_i16(native_default: "0,0,0,1");
 }
 
 ///-----------------------------------------------------------------------------
@@ -420,65 +420,65 @@ struct Quaternion_u16(native_inline, native_type: "glm::u16quat") {
 
 /// 2x2 matrix of ushorts
 struct Matrix2x2_u16(native_inline, native_type: "glm::u16mat2x2") {
-	_0: Vector2_u16(native_default: "1,0");
-	_1: Vector2_u16(native_default: "0,1");
+	c0: Vector2_u16(native_default: "1,0");
+	c1: Vector2_u16(native_default: "0,1");
 }
 
 /// 2x3 matrix of ushorts
 struct Matrix2x3_u16(native_inline, native_type: "glm::u16mat2x3") {
-	_0: Vector3_u16(native_default: "1,0,0");
-	_1: Vector3_u16(native_default: "0,1,0");
+	c0: Vector3_u16(native_default: "1,0,0");
+	c1: Vector3_u16(native_default: "0,1,0");
 }
 
 /// 2x4 matrix of ushorts
 struct Matrix2x4_u16(native_inline, native_type: "glm::u16mat2x4") {
-	_0: Vector4_u16(native_default: "1,0,0,0");
-	_1: Vector4_u16(native_default: "0,1,0,0");
+	c0: Vector4_u16(native_default: "1,0,0,0");
+	c1: Vector4_u16(native_default: "0,1,0,0");
 }
 
 /// 3x2 matrix of ushorts
 struct Matrix3x2_u16(native_inline, native_type: "glm::u16mat3x2") {
-	_0: Vector2_u16(native_default: "1,0");
-	_1: Vector2_u16(native_default: "0,1");
-	_2: Vector2_u16(native_default: "0,0");
+	c0: Vector2_u16(native_default: "1,0");
+	c1: Vector2_u16(native_default: "0,1");
+	c2: Vector2_u16(native_default: "0,0");
 }
 
 /// 3x3 matrix of ushorts
 struct Matrix3x3_u16(native_inline, native_type: "glm::u16mat3x3") {
-	_0: Vector3_u16(native_default: "1,0,0");
-	_1: Vector3_u16(native_default: "0,1,0");
-	_2: Vector3_u16(native_default: "0,0,1");
+	c0: Vector3_u16(native_default: "1,0,0");
+	c1: Vector3_u16(native_default: "0,1,0");
+	c2: Vector3_u16(native_default: "0,0,1");
 }
 
 /// 3x4 matrix of ushorts
 struct Matrix3x4_u16(native_inline, native_type: "glm::u16mat3x4") {
-	_0: Vector4_u16(native_default: "1,0,0,0");
-	_1: Vector4_u16(native_default: "0,1,0,0");
-	_2: Vector4_u16(native_default: "0,0,1,0");
+	c0: Vector4_u16(native_default: "1,0,0,0");
+	c1: Vector4_u16(native_default: "0,1,0,0");
+	c2: Vector4_u16(native_default: "0,0,1,0");
 }
 
 /// 4x2 matrix of ushorts
 struct Matrix4x2_u16(native_inline, native_type: "glm::u16mat4x2") {
-	_0: Vector2_u16(native_default: "1,0");
-	_1: Vector2_u16(native_default: "0,1");
-	_2: Vector2_u16(native_default: "0,0");
-	_3: Vector2_u16(native_default: "0,0");
+	c0: Vector2_u16(native_default: "1,0");
+	c1: Vector2_u16(native_default: "0,1");
+	c2: Vector2_u16(native_default: "0,0");
+	c3: Vector2_u16(native_default: "0,0");
 }
 
 /// 4x3 matrix of ushorts
 struct Matrix4x3_u16(native_inline, native_type: "glm::u16mat4x3") {
-	_0: Vector3_u16(native_default: "1,0,0");
-	_1: Vector3_u16(native_default: "0,1,0");
-	_2: Vector3_u16(native_default: "0,0,1");
-	_3: Vector3_u16(native_default: "0,0,0");
+	c0: Vector3_u16(native_default: "1,0,0");
+	c1: Vector3_u16(native_default: "0,1,0");
+	c2: Vector3_u16(native_default: "0,0,1");
+	c3: Vector3_u16(native_default: "0,0,0");
 }
 
 /// 4x4 matrix of ushorts
 struct Matrix4x4_u16(native_inline, native_type: "glm::u16mat4x4") {
-	_0: Vector4_u16(native_default: "1,0,0,0");
-	_1: Vector4_u16(native_default: "0,1,0,0");
-	_2: Vector4_u16(native_default: "0,0,1,0");
-	_3: Vector4_u16(native_default: "0,0,0,1");
+	c0: Vector4_u16(native_default: "1,0,0,0");
+	c1: Vector4_u16(native_default: "0,1,0,0");
+	c2: Vector4_u16(native_default: "0,0,1,0");
+	c3: Vector4_u16(native_default: "0,0,0,1");
 }
 
 ///-----------------------------------------------------------------------------
@@ -516,65 +516,65 @@ struct Quaternion_i8(native_inline, native_type: "glm::i8quat") {
 
 /// 2x2 matrix of bytes
 struct Matrix2x2_i8(native_inline, native_type: "glm::i8mat2x2") {
-	_0: Vector2_i8(native_default: "1,0");
-	_1: Vector2_i8(native_default: "0,1");
+	c0: Vector2_i8(native_default: "1,0");
+	c1: Vector2_i8(native_default: "0,1");
 }
 
 /// 2x3 matrix of bytes
 struct Matrix2x3_i8(native_inline, native_type: "glm::i8mat2x3") {
-	_0: Vector3_i8(native_default: "1,0,0");
-	_1: Vector3_i8(native_default: "0,1,0");
+	c0: Vector3_i8(native_default: "1,0,0");
+	c1: Vector3_i8(native_default: "0,1,0");
 }
 
 /// 2x4 matrix of bytes
 struct Matrix2x4_i8(native_inline, native_type: "glm::i8mat2x4") {
-	_0: Vector4_i8(native_default: "1,0,0,0");
-	_1: Vector4_i8(native_default: "0,1,0,0");
+	c0: Vector4_i8(native_default: "1,0,0,0");
+	c1: Vector4_i8(native_default: "0,1,0,0");
 }
 
 /// 3x2 matrix of bytes
 struct Matrix3x2_i8(native_inline, native_type: "glm::i8mat3x2") {
-	_0: Vector2_i8(native_default: "1,0");
-	_1: Vector2_i8(native_default: "0,1");
-	_2: Vector2_i8(native_default: "0,0");
+	c0: Vector2_i8(native_default: "1,0");
+	c1: Vector2_i8(native_default: "0,1");
+	c2: Vector2_i8(native_default: "0,0");
 }
 
 /// 3x3 matrix of bytes
 struct Matrix3x3_i8(native_inline, native_type: "glm::i8mat3x3") {
-	_0: Vector3_i8(native_default: "1,0,0");
-	_1: Vector3_i8(native_default: "0,1,0");
-	_2: Vector3_i8(native_default: "0,0,1");
+	c0: Vector3_i8(native_default: "1,0,0");
+	c1: Vector3_i8(native_default: "0,1,0");
+	c2: Vector3_i8(native_default: "0,0,1");
 }
 
 /// 3x4 matrix of bytes
 struct Matrix3x4_i8(native_inline, native_type: "glm::i8mat3x4") {
-	_0: Vector4_i8(native_default: "1,0,0,0");
-	_1: Vector4_i8(native_default: "0,1,0,0");
-	_2: Vector4_i8(native_default: "0,0,1,0");
+	c0: Vector4_i8(native_default: "1,0,0,0");
+	c1: Vector4_i8(native_default: "0,1,0,0");
+	c2: Vector4_i8(native_default: "0,0,1,0");
 }
 
 /// 4x2 matrix of bytes
 struct Matrix4x2_i8(native_inline, native_type: "glm::i8mat4x2") {
-	_0: Vector2_i8(native_default: "1,0");
-	_1: Vector2_i8(native_default: "0,1");
-	_2: Vector2_i8(native_default: "0,0");
-	_3: Vector2_i8(native_default: "0,0");
+	c0: Vector2_i8(native_default: "1,0");
+	c1: Vector2_i8(native_default: "0,1");
+	c2: Vector2_i8(native_default: "0,0");
+	c3: Vector2_i8(native_default: "0,0");
 }
 
 /// 4x3 matrix of bytes
 struct Matrix4x3_i8(native_inline, native_type: "glm::i8mat4x3") {
-	_0: Vector3_i8(native_default: "1,0,0");
-	_1: Vector3_i8(native_default: "0,1,0");
-	_2: Vector3_i8(native_default: "0,0,1");
-	_3: Vector3_i8(native_default: "0,0,0");
+	c0: Vector3_i8(native_default: "1,0,0");
+	c1: Vector3_i8(native_default: "0,1,0");
+	c2: Vector3_i8(native_default: "0,0,1");
+	c3: Vector3_i8(native_default: "0,0,0");
 }
 
 /// 4x4 matrix of bytes
 struct Matrix4x4_i8(native_inline, native_type: "glm::i8mat4x4") {
-	_0: Vector4_i8(native_default: "1,0,0,0");
-	_1: Vector4_i8(native_default: "0,1,0,0");
-	_2: Vector4_i8(native_default: "0,0,1,0");
-	_3: Vector4_i8(native_default: "0,0,0,1");
+	c0: Vector4_i8(native_default: "1,0,0,0");
+	c1: Vector4_i8(native_default: "0,1,0,0");
+	c2: Vector4_i8(native_default: "0,0,1,0");
+	c3: Vector4_i8(native_default: "0,0,0,1");
 }
 
 ///-----------------------------------------------------------------------------
@@ -612,65 +612,65 @@ struct Quaternion_u8(native_inline, native_type: "glm::u8quat") {
 
 /// 2x2 matrix of ubytes
 struct Matrix2x2_u8(native_inline, native_type: "glm::u8mat2x2") {
-	_0: Vector2_u8(native_default: "1,0");
-	_1: Vector2_u8(native_default: "0,1");
+	c0: Vector2_u8(native_default: "1,0");
+	c1: Vector2_u8(native_default: "0,1");
 }
 
 /// 2x3 matrix of ubytes
 struct Matrix2x3_u8(native_inline, native_type: "glm::u8mat2x3") {
-	_0: Vector3_u8(native_default: "1,0,0");
-	_1: Vector3_u8(native_default: "0,1,0");
+	c0: Vector3_u8(native_default: "1,0,0");
+	c1: Vector3_u8(native_default: "0,1,0");
 }
 
 /// 2x4 matrix of ubytes
 struct Matrix2x4_u8(native_inline, native_type: "glm::u8mat2x4") {
-	_0: Vector4_u8(native_default: "1,0,0,0");
-	_1: Vector4_u8(native_default: "0,1,0,0");
+	c0: Vector4_u8(native_default: "1,0,0,0");
+	c1: Vector4_u8(native_default: "0,1,0,0");
 }
 
 /// 3x2 matrix of ubytes
 struct Matrix3x2_u8(native_inline, native_type: "glm::u8mat3x2") {
-	_0: Vector2_u8(native_default: "1,0");
-	_1: Vector2_u8(native_default: "0,1");
-	_2: Vector2_u8(native_default: "0,0");
+	c0: Vector2_u8(native_default: "1,0");
+	c1: Vector2_u8(native_default: "0,1");
+	c2: Vector2_u8(native_default: "0,0");
 }
 
 /// 3x3 matrix of ubytes
 struct Matrix3x3_u8(native_inline, native_type: "glm::u8mat3x3") {
-	_0: Vector3_u8(native_default: "1,0,0");
-	_1: Vector3_u8(native_default: "0,1,0");
-	_2: Vector3_u8(native_default: "0,0,1");
+	c0: Vector3_u8(native_default: "1,0,0");
+	c1: Vector3_u8(native_default: "0,1,0");
+	c2: Vector3_u8(native_default: "0,0,1");
 }
 
 /// 3x4 matrix of ubytes
 struct Matrix3x4_u8(native_inline, native_type: "glm::u8mat3x4") {
-	_0: Vector4_u8(native_default: "1,0,0,0");
-	_1: Vector4_u8(native_default: "0,1,0,0");
-	_2: Vector4_u8(native_default: "0,0,1,0");
+	c0: Vector4_u8(native_default: "1,0,0,0");
+	c1: Vector4_u8(native_default: "0,1,0,0");
+	c2: Vector4_u8(native_default: "0,0,1,0");
 }
 
 /// 4x2 matrix of ubytes
 struct Matrix4x2_u8(native_inline, native_type: "glm::u8mat4x2") {
-	_0: Vector2_u8(native_default: "1,0");
-	_1: Vector2_u8(native_default: "0,1");
-	_2: Vector2_u8(native_default: "0,0");
-	_3: Vector2_u8(native_default: "0,0");
+	c0: Vector2_u8(native_default: "1,0");
+	c1: Vector2_u8(native_default: "0,1");
+	c2: Vector2_u8(native_default: "0,0");
+	c3: Vector2_u8(native_default: "0,0");
 }
 
 /// 4x3 matrix of ubytes
 struct Matrix4x3_u8(native_inline, native_type: "glm::u8mat4x3") {
-	_0: Vector3_u8(native_default: "1,0,0");
-	_1: Vector3_u8(native_default: "0,1,0");
-	_2: Vector3_u8(native_default: "0,0,1");
-	_3: Vector3_u8(native_default: "0,0,0");
+	c0: Vector3_u8(native_default: "1,0,0");
+	c1: Vector3_u8(native_default: "0,1,0");
+	c2: Vector3_u8(native_default: "0,0,1");
+	c3: Vector3_u8(native_default: "0,0,0");
 }
 
 /// 4x4 matrix of ubytes
 struct Matrix4x4_u8(native_inline, native_type: "glm::u8mat4x4") {
-	_0: Vector4_u8(native_default: "1,0,0,0");
-	_1: Vector4_u8(native_default: "0,1,0,0");
-	_2: Vector4_u8(native_default: "0,0,1,0");
-	_3: Vector4_u8(native_default: "0,0,0,1");
+	c0: Vector4_u8(native_default: "1,0,0,0");
+	c1: Vector4_u8(native_default: "0,1,0,0");
+	c2: Vector4_u8(native_default: "0,0,1,0");
+	c3: Vector4_u8(native_default: "0,0,0,1");
 }
 
 ///-----------------------------------------------------------------------------
@@ -708,65 +708,65 @@ struct Quaternion_i64(native_inline, native_type: "glm::i64quat") {
 
 /// 2x2 matrix of longs
 struct Matrix2x2_i64(native_inline, native_type: "glm::i64mat2x2") {
-	_0: Vector2_i64(native_default: "1,0");
-	_1: Vector2_i64(native_default: "0,1");
+	c0: Vector2_i64(native_default: "1,0");
+	c1: Vector2_i64(native_default: "0,1");
 }
 
 /// 2x3 matrix of longs
 struct Matrix2x3_i64(native_inline, native_type: "glm::i64mat2x3") {
-	_0: Vector3_i64(native_default: "1,0,0");
-	_1: Vector3_i64(native_default: "0,1,0");
+	c0: Vector3_i64(native_default: "1,0,0");
+	c1: Vector3_i64(native_default: "0,1,0");
 }
 
 /// 2x4 matrix of longs
 struct Matrix2x4_i64(native_inline, native_type: "glm::i64mat2x4") {
-	_0: Vector4_i64(native_default: "1,0,0,0");
-	_1: Vector4_i64(native_default: "0,1,0,0");
+	c0: Vector4_i64(native_default: "1,0,0,0");
+	c1: Vector4_i64(native_default: "0,1,0,0");
 }
 
 /// 3x2 matrix of longs
 struct Matrix3x2_i64(native_inline, native_type: "glm::i64mat3x2") {
-	_0: Vector2_i64(native_default: "1,0");
-	_1: Vector2_i64(native_default: "0,1");
-	_2: Vector2_i64(native_default: "0,0");
+	c0: Vector2_i64(native_default: "1,0");
+	c1: Vector2_i64(native_default: "0,1");
+	c2: Vector2_i64(native_default: "0,0");
 }
 
 /// 3x3 matrix of longs
 struct Matrix3x3_i64(native_inline, native_type: "glm::i64mat3x3") {
-	_0: Vector3_i64(native_default: "1,0,0");
-	_1: Vector3_i64(native_default: "0,1,0");
-	_2: Vector3_i64(native_default: "0,0,1");
+	c0: Vector3_i64(native_default: "1,0,0");
+	c1: Vector3_i64(native_default: "0,1,0");
+	c2: Vector3_i64(native_default: "0,0,1");
 }
 
 /// 3x4 matrix of longs
 struct Matrix3x4_i64(native_inline, native_type: "glm::i64mat3x4") {
-	_0: Vector4_i64(native_default: "1,0,0,0");
-	_1: Vector4_i64(native_default: "0,1,0,0");
-	_2: Vector4_i64(native_default: "0,0,1,0");
+	c0: Vector4_i64(native_default: "1,0,0,0");
+	c1: Vector4_i64(native_default: "0,1,0,0");
+	c2: Vector4_i64(native_default: "0,0,1,0");
 }
 
 /// 4x2 matrix of longs
 struct Matrix4x2_i64(native_inline, native_type: "glm::i64mat4x2") {
-	_0: Vector2_i64(native_default: "1,0");
-	_1: Vector2_i64(native_default: "0,1");
-	_2: Vector2_i64(native_default: "0,0");
-	_3: Vector2_i64(native_default: "0,0");
+	c0: Vector2_i64(native_default: "1,0");
+	c1: Vector2_i64(native_default: "0,1");
+	c2: Vector2_i64(native_default: "0,0");
+	c3: Vector2_i64(native_default: "0,0");
 }
 
 /// 4x3 matrix of longs
 struct Matrix4x3_i64(native_inline, native_type: "glm::i64mat4x3") {
-	_0: Vector3_i64(native_default: "1,0,0");
-	_1: Vector3_i64(native_default: "0,1,0");
-	_2: Vector3_i64(native_default: "0,0,1");
-	_3: Vector3_i64(native_default: "0,0,0");
+	c0: Vector3_i64(native_default: "1,0,0");
+	c1: Vector3_i64(native_default: "0,1,0");
+	c2: Vector3_i64(native_default: "0,0,1");
+	c3: Vector3_i64(native_default: "0,0,0");
 }
 
 /// 4x4 matrix of longs
 struct Matrix4x4_i64(native_inline, native_type: "glm::i64mat4x4") {
-	_0: Vector4_i64(native_default: "1,0,0,0");
-	_1: Vector4_i64(native_default: "0,1,0,0");
-	_2: Vector4_i64(native_default: "0,0,1,0");
-	_3: Vector4_i64(native_default: "0,0,0,1");
+	c0: Vector4_i64(native_default: "1,0,0,0");
+	c1: Vector4_i64(native_default: "0,1,0,0");
+	c2: Vector4_i64(native_default: "0,0,1,0");
+	c3: Vector4_i64(native_default: "0,0,0,1");
 }
 
 ///-----------------------------------------------------------------------------
@@ -804,65 +804,65 @@ struct Quaternion_u64(native_inline, native_type: "glm::u64quat") {
 
 /// 2x2 matrix of ulongs
 struct Matrix2x2_u64(native_inline, native_type: "glm::u64mat2x2") {
-	_0: Vector2_u64(native_default: "1,0");
-	_1: Vector2_u64(native_default: "0,1");
+	c0: Vector2_u64(native_default: "1,0");
+	c1: Vector2_u64(native_default: "0,1");
 }
 
 /// 2x3 matrix of ulongs
 struct Matrix2x3_u64(native_inline, native_type: "glm::u64mat2x3") {
-	_0: Vector3_u64(native_default: "1,0,0");
-	_1: Vector3_u64(native_default: "0,1,0");
+	c0: Vector3_u64(native_default: "1,0,0");
+	c1: Vector3_u64(native_default: "0,1,0");
 }
 
 /// 2x4 matrix of ulongs
 struct Matrix2x4_u64(native_inline, native_type: "glm::u64mat2x4") {
-	_0: Vector4_u64(native_default: "1,0,0,0");
-	_1: Vector4_u64(native_default: "0,1,0,0");
+	c0: Vector4_u64(native_default: "1,0,0,0");
+	c1: Vector4_u64(native_default: "0,1,0,0");
 }
 
 /// 3x2 matrix of ulongs
 struct Matrix3x2_u64(native_inline, native_type: "glm::u64mat3x2") {
-	_0: Vector2_u64(native_default: "1,0");
-	_1: Vector2_u64(native_default: "0,1");
-	_2: Vector2_u64(native_default: "0,0");
+	c0: Vector2_u64(native_default: "1,0");
+	c1: Vector2_u64(native_default: "0,1");
+	c2: Vector2_u64(native_default: "0,0");
 }
 
 /// 3x3 matrix of ulongs
 struct Matrix3x3_u64(native_inline, native_type: "glm::u64mat3x3") {
-	_0: Vector3_u64(native_default: "1,0,0");
-	_1: Vector3_u64(native_default: "0,1,0");
-	_2: Vector3_u64(native_default: "0,0,1");
+	c0: Vector3_u64(native_default: "1,0,0");
+	c1: Vector3_u64(native_default: "0,1,0");
+	c2: Vector3_u64(native_default: "0,0,1");
 }
 
 /// 3x4 matrix of ulongs
 struct Matrix3x4_u64(native_inline, native_type: "glm::u64mat3x4") {
-	_0: Vector4_u64(native_default: "1,0,0,0");
-	_1: Vector4_u64(native_default: "0,1,0,0");
-	_2: Vector4_u64(native_default: "0,0,1,0");
+	c0: Vector4_u64(native_default: "1,0,0,0");
+	c1: Vector4_u64(native_default: "0,1,0,0");
+	c2: Vector4_u64(native_default: "0,0,1,0");
 }
 
 /// 4x2 matrix of ulongs
 struct Matrix4x2_u64(native_inline, native_type: "glm::u64mat4x2") {
-	_0: Vector2_u64(native_default: "1,0");
-	_1: Vector2_u64(native_default: "0,1");
-	_2: Vector2_u64(native_default: "0,0");
-	_3: Vector2_u64(native_default: "0,0");
+	c0: Vector2_u64(native_default: "1,0");
+	c1: Vector2_u64(native_default: "0,1");
+	c2: Vector2_u64(native_default: "0,0");
+	c3: Vector2_u64(native_default: "0,0");
 }
 
 /// 4x3 matrix of ulongs
 struct Matrix4x3_u64(native_inline, native_type: "glm::u64mat4x3") {
-	_0: Vector3_u64(native_default: "1,0,0");
-	_1: Vector3_u64(native_default: "0,1,0");
-	_2: Vector3_u64(native_default: "0,0,1");
-	_3: Vector3_u64(native_default: "0,0,0");
+	c0: Vector3_u64(native_default: "1,0,0");
+	c1: Vector3_u64(native_default: "0,1,0");
+	c2: Vector3_u64(native_default: "0,0,1");
+	c3: Vector3_u64(native_default: "0,0,0");
 }
 
 /// 4x4 matrix of ulongs
 struct Matrix4x4_u64(native_inline, native_type: "glm::u64mat4x4") {
-	_0: Vector4_u64(native_default: "1,0,0,0");
-	_1: Vector4_u64(native_default: "0,1,0,0");
-	_2: Vector4_u64(native_default: "0,0,1,0");
-	_3: Vector4_u64(native_default: "0,0,0,1");
+	c0: Vector4_u64(native_default: "1,0,0,0");
+	c1: Vector4_u64(native_default: "0,1,0,0");
+	c2: Vector4_u64(native_default: "0,0,1,0");
+	c3: Vector4_u64(native_default: "0,0,0,1");
 }
 
 ///-----------------------------------------------------------------------------
@@ -900,65 +900,65 @@ struct Quaternion_f64(native_inline, native_type: "glm::dquat") {
 
 /// 2x2 matrix of doubles
 struct Matrix2x2_f64(native_inline, native_type: "glm::dmat2x2") {
-	_0: Vector2_f64(native_default: "1,0");
-	_1: Vector2_f64(native_default: "0,1");
+	c0: Vector2_f64(native_default: "1,0");
+	c1: Vector2_f64(native_default: "0,1");
 }
 
 /// 2x3 matrix of doubles
 struct Matrix2x3_f64(native_inline, native_type: "glm::dmat2x3") {
-	_0: Vector3_f64(native_default: "1,0,0");
-	_1: Vector3_f64(native_default: "0,1,0");
+	c0: Vector3_f64(native_default: "1,0,0");
+	c1: Vector3_f64(native_default: "0,1,0");
 }
 
 /// 2x4 matrix of doubles
 struct Matrix2x4_f64(native_inline, native_type: "glm::dmat2x4") {
-	_0: Vector4_f64(native_default: "1,0,0,0");
-	_1: Vector4_f64(native_default: "0,1,0,0");
+	c0: Vector4_f64(native_default: "1,0,0,0");
+	c1: Vector4_f64(native_default: "0,1,0,0");
 }
 
 /// 3x2 matrix of doubles
 struct Matrix3x2_f64(native_inline, native_type: "glm::dmat3x2") {
-	_0: Vector2_f64(native_default: "1,0");
-	_1: Vector2_f64(native_default: "0,1");
-	_2: Vector2_f64(native_default: "0,0");
+	c0: Vector2_f64(native_default: "1,0");
+	c1: Vector2_f64(native_default: "0,1");
+	c2: Vector2_f64(native_default: "0,0");
 }
 
 /// 3x3 matrix of doubles
 struct Matrix3x3_f64(native_inline, native_type: "glm::dmat3x3") {
-	_0: Vector3_f64(native_default: "1,0,0");
-	_1: Vector3_f64(native_default: "0,1,0");
-	_2: Vector3_f64(native_default: "0,0,1");
+	c0: Vector3_f64(native_default: "1,0,0");
+	c1: Vector3_f64(native_default: "0,1,0");
+	c2: Vector3_f64(native_default: "0,0,1");
 }
 
 /// 3x4 matrix of doubles
 struct Matrix3x4_f64(native_inline, native_type: "glm::dmat3x4") {
-	_0: Vector4_f64(native_default: "1,0,0,0");
-	_1: Vector4_f64(native_default: "0,1,0,0");
-	_2: Vector4_f64(native_default: "0,0,1,0");
+	c0: Vector4_f64(native_default: "1,0,0,0");
+	c1: Vector4_f64(native_default: "0,1,0,0");
+	c2: Vector4_f64(native_default: "0,0,1,0");
 }
 
 /// 4x2 matrix of doubles
 struct Matrix4x2_f64(native_inline, native_type: "glm::dmat4x2") {
-	_0: Vector2_f64(native_default: "1,0");
-	_1: Vector2_f64(native_default: "0,1");
-	_2: Vector2_f64(native_default: "0,0");
-	_3: Vector2_f64(native_default: "0,0");
+	c0: Vector2_f64(native_default: "1,0");
+	c1: Vector2_f64(native_default: "0,1");
+	c2: Vector2_f64(native_default: "0,0");
+	c3: Vector2_f64(native_default: "0,0");
 }
 
 /// 4x3 matrix of doubles
 struct Matrix4x3_f64(native_inline, native_type: "glm::dmat4x3") {
-	_0: Vector3_f64(native_default: "1,0,0");
-	_1: Vector3_f64(native_default: "0,1,0");
-	_2: Vector3_f64(native_default: "0,0,1");
-	_3: Vector3_f64(native_default: "0,0,0");
+	c0: Vector3_f64(native_default: "1,0,0");
+	c1: Vector3_f64(native_default: "0,1,0");
+	c2: Vector3_f64(native_default: "0,0,1");
+	c3: Vector3_f64(native_default: "0,0,0");
 }
 
 /// 4x4 matrix of doubles
 struct Matrix4x4_f64(native_inline, native_type: "glm::dmat4x4") {
-	_0: Vector4_f64(native_default: "1,0,0,0");
-	_1: Vector4_f64(native_default: "0,1,0,0");
-	_2: Vector4_f64(native_default: "0,0,1,0");
-	_3: Vector4_f64(native_default: "0,0,0,1");
+	c0: Vector4_f64(native_default: "1,0,0,0");
+	c1: Vector4_f64(native_default: "0,1,0,0");
+	c2: Vector4_f64(native_default: "0,0,1,0");
+	c3: Vector4_f64(native_default: "0,0,0,1");
 }
 
 ///-----------------------------------------------------------------------------
