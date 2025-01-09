@@ -1,0 +1,1055 @@
+// Flatbuffer schema for serializable container containing the math types
+
+include "flatmath.fbs";
+attribute "fs_serializer";
+
+namespace flatmath;
+
+///-----------------------------------------------------------------------------
+/// single value containers
+
+table SingleVector2_f32(native_inline, fs_serializer) {
+    value: Vector2_f32;
+}
+
+table SingleVector3_f32(native_inline, fs_serializer) {
+    value: Vector3_f32;
+}
+
+table SingleVector4_f32(native_inline, fs_serializer) {
+    value: Vector4_f32;
+}
+
+table SingleQuaternion_f32(native_inline, fs_serializer) {
+    value: Quaternion_f32;
+}
+
+table SingleMatrix2x2_f32(native_inline, fs_serializer) {
+    value: Matrix2x2_f32;
+}
+
+table SingleMatrix2x3_f32(native_inline, fs_serializer) {
+    value: Matrix2x3_f32;
+}
+
+table SingleMatrix2x4_f32(native_inline, fs_serializer) {
+    value: Matrix2x4_f32;
+}
+
+table SingleMatrix3x2_f32(native_inline, fs_serializer) {
+    value: Matrix3x2_f32;
+}
+
+table SingleMatrix3x3_f32(native_inline, fs_serializer) {
+    value: Matrix3x3_f32;
+}
+
+table SingleMatrix3x4_f32(native_inline, fs_serializer) {
+    value: Matrix3x4_f32;
+}
+
+table SingleMatrix4x2_f32(native_inline, fs_serializer) {
+    value: Matrix4x2_f32;
+}
+
+table SingleMatrix4x3_f32(native_inline, fs_serializer) {
+    value: Matrix4x3_f32;
+}
+
+table SingleMatrix4x4_f32(native_inline, fs_serializer) {
+    value: Matrix4x4_f32;
+}
+
+table SingleVector2_i32(native_inline, fs_serializer) {
+    value: Vector2_i32;
+}
+
+table SingleVector3_i32(native_inline, fs_serializer) {
+    value: Vector3_i32;
+}
+
+table SingleVector4_i32(native_inline, fs_serializer) {
+    value: Vector4_i32;
+}
+
+table SingleQuaternion_i32(native_inline, fs_serializer) {
+    value: Quaternion_i32;
+}
+
+table SingleMatrix2x2_i32(native_inline, fs_serializer) {
+    value: Matrix2x2_i32;
+}
+
+table SingleMatrix2x3_i32(native_inline, fs_serializer) {
+    value: Matrix2x3_i32;
+}
+
+table SingleMatrix2x4_i32(native_inline, fs_serializer) {
+    value: Matrix2x4_i32;
+}
+
+table SingleMatrix3x2_i32(native_inline, fs_serializer) {
+    value: Matrix3x2_i32;
+}
+
+table SingleMatrix3x3_i32(native_inline, fs_serializer) {
+    value: Matrix3x3_i32;
+}
+
+table SingleMatrix3x4_i32(native_inline, fs_serializer) {
+    value: Matrix3x4_i32;
+}
+
+table SingleMatrix4x2_i32(native_inline, fs_serializer) {
+    value: Matrix4x2_i32;
+}
+
+table SingleMatrix4x3_i32(native_inline, fs_serializer) {
+    value: Matrix4x3_i32;
+}
+
+table SingleMatrix4x4_i32(native_inline, fs_serializer) {
+    value: Matrix4x4_i32;
+}
+
+table SingleVector2_u32(native_inline, fs_serializer) {
+    value: Vector2_u32;
+}
+
+table SingleVector3_u32(native_inline, fs_serializer) {
+    value: Vector3_u32;
+}
+
+table SingleVector4_u32(native_inline, fs_serializer) {
+    value: Vector4_u32;
+}
+
+table SingleQuaternion_u32(native_inline, fs_serializer) {
+    value: Quaternion_u32;
+}
+
+table SingleMatrix2x2_u32(native_inline, fs_serializer) {
+    value: Matrix2x2_u32;
+}
+
+table SingleMatrix2x3_u32(native_inline, fs_serializer) {
+    value: Matrix2x3_u32;
+}
+
+table SingleMatrix2x4_u32(native_inline, fs_serializer) {
+    value: Matrix2x4_u32;
+}
+
+table SingleMatrix3x2_u32(native_inline, fs_serializer) {
+    value: Matrix3x2_u32;
+}
+
+table SingleMatrix3x3_u32(native_inline, fs_serializer) {
+    value: Matrix3x3_u32;
+}
+
+table SingleMatrix3x4_u32(native_inline, fs_serializer) {
+    value: Matrix3x4_u32;
+}
+
+table SingleMatrix4x2_u32(native_inline, fs_serializer) {
+    value: Matrix4x2_u32;
+}
+
+table SingleMatrix4x3_u32(native_inline, fs_serializer) {
+    value: Matrix4x3_u32;
+}
+
+table SingleMatrix4x4_u32(native_inline, fs_serializer) {
+    value: Matrix4x4_u32;
+}
+
+table SingleVector2_i16(native_inline, fs_serializer) {
+    value: Vector2_i16;
+}
+
+table SingleVector3_i16(native_inline, fs_serializer) {
+    value: Vector3_i16;
+}
+
+table SingleVector4_i16(native_inline, fs_serializer) {
+    value: Vector4_i16;
+}
+
+table SingleQuaternion_i16(native_inline, fs_serializer) {
+    value: Quaternion_i16;
+}
+
+table SingleMatrix2x2_i16(native_inline, fs_serializer) {
+    value: Matrix2x2_i16;
+}
+
+table SingleMatrix2x3_i16(native_inline, fs_serializer) {
+    value: Matrix2x3_i16;
+}
+
+table SingleMatrix2x4_i16(native_inline, fs_serializer) {
+    value: Matrix2x4_i16;
+}
+
+table SingleMatrix3x2_i16(native_inline, fs_serializer) {
+    value: Matrix3x2_i16;
+}
+
+table SingleMatrix3x3_i16(native_inline, fs_serializer) {
+    value: Matrix3x3_i16;
+}
+
+table SingleMatrix3x4_i16(native_inline, fs_serializer) {
+    value: Matrix3x4_i16;
+}
+
+table SingleMatrix4x2_i16(native_inline, fs_serializer) {
+    value: Matrix4x2_i16;
+}
+
+table SingleMatrix4x3_i16(native_inline, fs_serializer) {
+    value: Matrix4x3_i16;
+}
+
+table SingleMatrix4x4_i16(native_inline, fs_serializer) {
+    value: Matrix4x4_i16;
+}
+
+table SingleVector2_u16(native_inline, fs_serializer) {
+    value: Vector2_u16;
+}
+
+table SingleVector3_u16(native_inline, fs_serializer) {
+    value: Vector3_u16;
+}
+
+table SingleVector4_u16(native_inline, fs_serializer) {
+    value: Vector4_u16;
+}
+
+table SingleQuaternion_u16(native_inline, fs_serializer) {
+    value: Quaternion_u16;
+}
+
+table SingleMatrix2x2_u16(native_inline, fs_serializer) {
+    value: Matrix2x2_u16;
+}
+
+table SingleMatrix2x3_u16(native_inline, fs_serializer) {
+    value: Matrix2x3_u16;
+}
+
+table SingleMatrix2x4_u16(native_inline, fs_serializer) {
+    value: Matrix2x4_u16;
+}
+
+table SingleMatrix3x2_u16(native_inline, fs_serializer) {
+    value: Matrix3x2_u16;
+}
+
+table SingleMatrix3x3_u16(native_inline, fs_serializer) {
+    value: Matrix3x3_u16;
+}
+
+table SingleMatrix3x4_u16(native_inline, fs_serializer) {
+    value: Matrix3x4_u16;
+}
+
+table SingleMatrix4x2_u16(native_inline, fs_serializer) {
+    value: Matrix4x2_u16;
+}
+
+table SingleMatrix4x3_u16(native_inline, fs_serializer) {
+    value: Matrix4x3_u16;
+}
+
+table SingleMatrix4x4_u16(native_inline, fs_serializer) {
+    value: Matrix4x4_u16;
+}
+
+table SingleVector2_i8(native_inline, fs_serializer) {
+    value: Vector2_i8;
+}
+
+table SingleVector3_i8(native_inline, fs_serializer) {
+    value: Vector3_i8;
+}
+
+table SingleVector4_i8(native_inline, fs_serializer) {
+    value: Vector4_i8;
+}
+
+table SingleQuaternion_i8(native_inline, fs_serializer) {
+    value: Quaternion_i8;
+}
+
+table SingleMatrix2x2_i8(native_inline, fs_serializer) {
+    value: Matrix2x2_i8;
+}
+
+table SingleMatrix2x3_i8(native_inline, fs_serializer) {
+    value: Matrix2x3_i8;
+}
+
+table SingleMatrix2x4_i8(native_inline, fs_serializer) {
+    value: Matrix2x4_i8;
+}
+
+table SingleMatrix3x2_i8(native_inline, fs_serializer) {
+    value: Matrix3x2_i8;
+}
+
+table SingleMatrix3x3_i8(native_inline, fs_serializer) {
+    value: Matrix3x3_i8;
+}
+
+table SingleMatrix3x4_i8(native_inline, fs_serializer) {
+    value: Matrix3x4_i8;
+}
+
+table SingleMatrix4x2_i8(native_inline, fs_serializer) {
+    value: Matrix4x2_i8;
+}
+
+table SingleMatrix4x3_i8(native_inline, fs_serializer) {
+    value: Matrix4x3_i8;
+}
+
+table SingleMatrix4x4_i8(native_inline, fs_serializer) {
+    value: Matrix4x4_i8;
+}
+
+table SingleVector2_u8(native_inline, fs_serializer) {
+    value: Vector2_u8;
+}
+
+table SingleVector3_u8(native_inline, fs_serializer) {
+    value: Vector3_u8;
+}
+
+table SingleVector4_u8(native_inline, fs_serializer) {
+    value: Vector4_u8;
+}
+
+table SingleQuaternion_u8(native_inline, fs_serializer) {
+    value: Quaternion_u8;
+}
+
+table SingleMatrix2x2_u8(native_inline, fs_serializer) {
+    value: Matrix2x2_u8;
+}
+
+table SingleMatrix2x3_u8(native_inline, fs_serializer) {
+    value: Matrix2x3_u8;
+}
+
+table SingleMatrix2x4_u8(native_inline, fs_serializer) {
+    value: Matrix2x4_u8;
+}
+
+table SingleMatrix3x2_u8(native_inline, fs_serializer) {
+    value: Matrix3x2_u8;
+}
+
+table SingleMatrix3x3_u8(native_inline, fs_serializer) {
+    value: Matrix3x3_u8;
+}
+
+table SingleMatrix3x4_u8(native_inline, fs_serializer) {
+    value: Matrix3x4_u8;
+}
+
+table SingleMatrix4x2_u8(native_inline, fs_serializer) {
+    value: Matrix4x2_u8;
+}
+
+table SingleMatrix4x3_u8(native_inline, fs_serializer) {
+    value: Matrix4x3_u8;
+}
+
+table SingleMatrix4x4_u8(native_inline, fs_serializer) {
+    value: Matrix4x4_u8;
+}
+
+table SingleVector2_i64(native_inline, fs_serializer) {
+    value: Vector2_i64;
+}
+
+table SingleVector3_i64(native_inline, fs_serializer) {
+    value: Vector3_i64;
+}
+
+table SingleVector4_i64(native_inline, fs_serializer) {
+    value: Vector4_i64;
+}
+
+table SingleQuaternion_i64(native_inline, fs_serializer) {
+    value: Quaternion_i64;
+}
+
+table SingleMatrix2x2_i64(native_inline, fs_serializer) {
+    value: Matrix2x2_i64;
+}
+
+table SingleMatrix2x3_i64(native_inline, fs_serializer) {
+    value: Matrix2x3_i64;
+}
+
+table SingleMatrix2x4_i64(native_inline, fs_serializer) {
+    value: Matrix2x4_i64;
+}
+
+table SingleMatrix3x2_i64(native_inline, fs_serializer) {
+    value: Matrix3x2_i64;
+}
+
+table SingleMatrix3x3_i64(native_inline, fs_serializer) {
+    value: Matrix3x3_i64;
+}
+
+table SingleMatrix3x4_i64(native_inline, fs_serializer) {
+    value: Matrix3x4_i64;
+}
+
+table SingleMatrix4x2_i64(native_inline, fs_serializer) {
+    value: Matrix4x2_i64;
+}
+
+table SingleMatrix4x3_i64(native_inline, fs_serializer) {
+    value: Matrix4x3_i64;
+}
+
+table SingleMatrix4x4_i64(native_inline, fs_serializer) {
+    value: Matrix4x4_i64;
+}
+
+table SingleVector2_u64(native_inline, fs_serializer) {
+    value: Vector2_u64;
+}
+
+table SingleVector3_u64(native_inline, fs_serializer) {
+    value: Vector3_u64;
+}
+
+table SingleVector4_u64(native_inline, fs_serializer) {
+    value: Vector4_u64;
+}
+
+table SingleQuaternion_u64(native_inline, fs_serializer) {
+    value: Quaternion_u64;
+}
+
+table SingleMatrix2x2_u64(native_inline, fs_serializer) {
+    value: Matrix2x2_u64;
+}
+
+table SingleMatrix2x3_u64(native_inline, fs_serializer) {
+    value: Matrix2x3_u64;
+}
+
+table SingleMatrix2x4_u64(native_inline, fs_serializer) {
+    value: Matrix2x4_u64;
+}
+
+table SingleMatrix3x2_u64(native_inline, fs_serializer) {
+    value: Matrix3x2_u64;
+}
+
+table SingleMatrix3x3_u64(native_inline, fs_serializer) {
+    value: Matrix3x3_u64;
+}
+
+table SingleMatrix3x4_u64(native_inline, fs_serializer) {
+    value: Matrix3x4_u64;
+}
+
+table SingleMatrix4x2_u64(native_inline, fs_serializer) {
+    value: Matrix4x2_u64;
+}
+
+table SingleMatrix4x3_u64(native_inline, fs_serializer) {
+    value: Matrix4x3_u64;
+}
+
+table SingleMatrix4x4_u64(native_inline, fs_serializer) {
+    value: Matrix4x4_u64;
+}
+
+table SingleVector2_f64(native_inline, fs_serializer) {
+    value: Vector2_f64;
+}
+
+table SingleVector3_f64(native_inline, fs_serializer) {
+    value: Vector3_f64;
+}
+
+table SingleVector4_f64(native_inline, fs_serializer) {
+    value: Vector4_f64;
+}
+
+table SingleQuaternion_f64(native_inline, fs_serializer) {
+    value: Quaternion_f64;
+}
+
+table SingleMatrix2x2_f64(native_inline, fs_serializer) {
+    value: Matrix2x2_f64;
+}
+
+table SingleMatrix2x3_f64(native_inline, fs_serializer) {
+    value: Matrix2x3_f64;
+}
+
+table SingleMatrix2x4_f64(native_inline, fs_serializer) {
+    value: Matrix2x4_f64;
+}
+
+table SingleMatrix3x2_f64(native_inline, fs_serializer) {
+    value: Matrix3x2_f64;
+}
+
+table SingleMatrix3x3_f64(native_inline, fs_serializer) {
+    value: Matrix3x3_f64;
+}
+
+table SingleMatrix3x4_f64(native_inline, fs_serializer) {
+    value: Matrix3x4_f64;
+}
+
+table SingleMatrix4x2_f64(native_inline, fs_serializer) {
+    value: Matrix4x2_f64;
+}
+
+table SingleMatrix4x3_f64(native_inline, fs_serializer) {
+    value: Matrix4x3_f64;
+}
+
+table SingleMatrix4x4_f64(native_inline, fs_serializer) {
+    value: Matrix4x4_f64;
+}
+
+
+///-----------------------------------------------------------------------------
+/// Multiple values containers
+
+table MultiVector2_f32(native_inline, fs_serializer) {
+    values: [Vector2_f32];
+}
+
+table MultiVector3_f32(native_inline, fs_serializer) {
+    values: [Vector3_f32];
+}
+
+table MultiVector4_f32(native_inline, fs_serializer) {
+    values: [Vector4_f32];
+}
+
+table MultiQuaternion_f32(native_inline, fs_serializer) {
+    values: [Quaternion_f32];
+}
+
+table MultiMatrix2x2_f32(native_inline, fs_serializer) {
+    values: [Matrix2x2_f32];
+}
+
+table MultiMatrix2x3_f32(native_inline, fs_serializer) {
+    values: [Matrix2x3_f32];
+}
+
+table MultiMatrix2x4_f32(native_inline, fs_serializer) {
+    values: [Matrix2x4_f32];
+}
+
+table MultiMatrix3x2_f32(native_inline, fs_serializer) {
+    values: [Matrix3x2_f32];
+}
+
+table MultiMatrix3x3_f32(native_inline, fs_serializer) {
+    values: [Matrix3x3_f32];
+}
+
+table MultiMatrix3x4_f32(native_inline, fs_serializer) {
+    values: [Matrix3x4_f32];
+}
+
+table MultiMatrix4x2_f32(native_inline, fs_serializer) {
+    values: [Matrix4x2_f32];
+}
+
+table MultiMatrix4x3_f32(native_inline, fs_serializer) {
+    values: [Matrix4x3_f32];
+}
+
+table MultiMatrix4x4_f32(native_inline, fs_serializer) {
+    values: [Matrix4x4_f32];
+}
+
+table MultiVector2_i32(native_inline, fs_serializer) {
+    values: [Vector2_i32];
+}
+
+table MultiVector3_i32(native_inline, fs_serializer) {
+    values: [Vector3_i32];
+}
+
+table MultiVector4_i32(native_inline, fs_serializer) {
+    values: [Vector4_i32];
+}
+
+table MultiQuaternion_i32(native_inline, fs_serializer) {
+    values: [Quaternion_i32];
+}
+
+table MultiMatrix2x2_i32(native_inline, fs_serializer) {
+    values: [Matrix2x2_i32];
+}
+
+table MultiMatrix2x3_i32(native_inline, fs_serializer) {
+    values: [Matrix2x3_i32];
+}
+
+table MultiMatrix2x4_i32(native_inline, fs_serializer) {
+    values: [Matrix2x4_i32];
+}
+
+table MultiMatrix3x2_i32(native_inline, fs_serializer) {
+    values: [Matrix3x2_i32];
+}
+
+table MultiMatrix3x3_i32(native_inline, fs_serializer) {
+    values: [Matrix3x3_i32];
+}
+
+table MultiMatrix3x4_i32(native_inline, fs_serializer) {
+    values: [Matrix3x4_i32];
+}
+
+table MultiMatrix4x2_i32(native_inline, fs_serializer) {
+    values: [Matrix4x2_i32];
+}
+
+table MultiMatrix4x3_i32(native_inline, fs_serializer) {
+    values: [Matrix4x3_i32];
+}
+
+table MultiMatrix4x4_i32(native_inline, fs_serializer) {
+    values: [Matrix4x4_i32];
+}
+
+table MultiVector2_u32(native_inline, fs_serializer) {
+    values: [Vector2_u32];
+}
+
+table MultiVector3_u32(native_inline, fs_serializer) {
+    values: [Vector3_u32];
+}
+
+table MultiVector4_u32(native_inline, fs_serializer) {
+    values: [Vector4_u32];
+}
+
+table MultiQuaternion_u32(native_inline, fs_serializer) {
+    values: [Quaternion_u32];
+}
+
+table MultiMatrix2x2_u32(native_inline, fs_serializer) {
+    values: [Matrix2x2_u32];
+}
+
+table MultiMatrix2x3_u32(native_inline, fs_serializer) {
+    values: [Matrix2x3_u32];
+}
+
+table MultiMatrix2x4_u32(native_inline, fs_serializer) {
+    values: [Matrix2x4_u32];
+}
+
+table MultiMatrix3x2_u32(native_inline, fs_serializer) {
+    values: [Matrix3x2_u32];
+}
+
+table MultiMatrix3x3_u32(native_inline, fs_serializer) {
+    values: [Matrix3x3_u32];
+}
+
+table MultiMatrix3x4_u32(native_inline, fs_serializer) {
+    values: [Matrix3x4_u32];
+}
+
+table MultiMatrix4x2_u32(native_inline, fs_serializer) {
+    values: [Matrix4x2_u32];
+}
+
+table MultiMatrix4x3_u32(native_inline, fs_serializer) {
+    values: [Matrix4x3_u32];
+}
+
+table MultiMatrix4x4_u32(native_inline, fs_serializer) {
+    values: [Matrix4x4_u32];
+}
+
+table MultiVector2_i16(native_inline, fs_serializer) {
+    values: [Vector2_i16];
+}
+
+table MultiVector3_i16(native_inline, fs_serializer) {
+    values: [Vector3_i16];
+}
+
+table MultiVector4_i16(native_inline, fs_serializer) {
+    values: [Vector4_i16];
+}
+
+table MultiQuaternion_i16(native_inline, fs_serializer) {
+    values: [Quaternion_i16];
+}
+
+table MultiMatrix2x2_i16(native_inline, fs_serializer) {
+    values: [Matrix2x2_i16];
+}
+
+table MultiMatrix2x3_i16(native_inline, fs_serializer) {
+    values: [Matrix2x3_i16];
+}
+
+table MultiMatrix2x4_i16(native_inline, fs_serializer) {
+    values: [Matrix2x4_i16];
+}
+
+table MultiMatrix3x2_i16(native_inline, fs_serializer) {
+    values: [Matrix3x2_i16];
+}
+
+table MultiMatrix3x3_i16(native_inline, fs_serializer) {
+    values: [Matrix3x3_i16];
+}
+
+table MultiMatrix3x4_i16(native_inline, fs_serializer) {
+    values: [Matrix3x4_i16];
+}
+
+table MultiMatrix4x2_i16(native_inline, fs_serializer) {
+    values: [Matrix4x2_i16];
+}
+
+table MultiMatrix4x3_i16(native_inline, fs_serializer) {
+    values: [Matrix4x3_i16];
+}
+
+table MultiMatrix4x4_i16(native_inline, fs_serializer) {
+    values: [Matrix4x4_i16];
+}
+
+table MultiVector2_u16(native_inline, fs_serializer) {
+    values: [Vector2_u16];
+}
+
+table MultiVector3_u16(native_inline, fs_serializer) {
+    values: [Vector3_u16];
+}
+
+table MultiVector4_u16(native_inline, fs_serializer) {
+    values: [Vector4_u16];
+}
+
+table MultiQuaternion_u16(native_inline, fs_serializer) {
+    values: [Quaternion_u16];
+}
+
+table MultiMatrix2x2_u16(native_inline, fs_serializer) {
+    values: [Matrix2x2_u16];
+}
+
+table MultiMatrix2x3_u16(native_inline, fs_serializer) {
+    values: [Matrix2x3_u16];
+}
+
+table MultiMatrix2x4_u16(native_inline, fs_serializer) {
+    values: [Matrix2x4_u16];
+}
+
+table MultiMatrix3x2_u16(native_inline, fs_serializer) {
+    values: [Matrix3x2_u16];
+}
+
+table MultiMatrix3x3_u16(native_inline, fs_serializer) {
+    values: [Matrix3x3_u16];
+}
+
+table MultiMatrix3x4_u16(native_inline, fs_serializer) {
+    values: [Matrix3x4_u16];
+}
+
+table MultiMatrix4x2_u16(native_inline, fs_serializer) {
+    values: [Matrix4x2_u16];
+}
+
+table MultiMatrix4x3_u16(native_inline, fs_serializer) {
+    values: [Matrix4x3_u16];
+}
+
+table MultiMatrix4x4_u16(native_inline, fs_serializer) {
+    values: [Matrix4x4_u16];
+}
+
+table MultiVector2_i8(native_inline, fs_serializer) {
+    values: [Vector2_i8];
+}
+
+table MultiVector3_i8(native_inline, fs_serializer) {
+    values: [Vector3_i8];
+}
+
+table MultiVector4_i8(native_inline, fs_serializer) {
+    values: [Vector4_i8];
+}
+
+table MultiQuaternion_i8(native_inline, fs_serializer) {
+    values: [Quaternion_i8];
+}
+
+table MultiMatrix2x2_i8(native_inline, fs_serializer) {
+    values: [Matrix2x2_i8];
+}
+
+table MultiMatrix2x3_i8(native_inline, fs_serializer) {
+    values: [Matrix2x3_i8];
+}
+
+table MultiMatrix2x4_i8(native_inline, fs_serializer) {
+    values: [Matrix2x4_i8];
+}
+
+table MultiMatrix3x2_i8(native_inline, fs_serializer) {
+    values: [Matrix3x2_i8];
+}
+
+table MultiMatrix3x3_i8(native_inline, fs_serializer) {
+    values: [Matrix3x3_i8];
+}
+
+table MultiMatrix3x4_i8(native_inline, fs_serializer) {
+    values: [Matrix3x4_i8];
+}
+
+table MultiMatrix4x2_i8(native_inline, fs_serializer) {
+    values: [Matrix4x2_i8];
+}
+
+table MultiMatrix4x3_i8(native_inline, fs_serializer) {
+    values: [Matrix4x3_i8];
+}
+
+table MultiMatrix4x4_i8(native_inline, fs_serializer) {
+    values: [Matrix4x4_i8];
+}
+
+table MultiVector2_u8(native_inline, fs_serializer) {
+    values: [Vector2_u8];
+}
+
+table MultiVector3_u8(native_inline, fs_serializer) {
+    values: [Vector3_u8];
+}
+
+table MultiVector4_u8(native_inline, fs_serializer) {
+    values: [Vector4_u8];
+}
+
+table MultiQuaternion_u8(native_inline, fs_serializer) {
+    values: [Quaternion_u8];
+}
+
+table MultiMatrix2x2_u8(native_inline, fs_serializer) {
+    values: [Matrix2x2_u8];
+}
+
+table MultiMatrix2x3_u8(native_inline, fs_serializer) {
+    values: [Matrix2x3_u8];
+}
+
+table MultiMatrix2x4_u8(native_inline, fs_serializer) {
+    values: [Matrix2x4_u8];
+}
+
+table MultiMatrix3x2_u8(native_inline, fs_serializer) {
+    values: [Matrix3x2_u8];
+}
+
+table MultiMatrix3x3_u8(native_inline, fs_serializer) {
+    values: [Matrix3x3_u8];
+}
+
+table MultiMatrix3x4_u8(native_inline, fs_serializer) {
+    values: [Matrix3x4_u8];
+}
+
+table MultiMatrix4x2_u8(native_inline, fs_serializer) {
+    values: [Matrix4x2_u8];
+}
+
+table MultiMatrix4x3_u8(native_inline, fs_serializer) {
+    values: [Matrix4x3_u8];
+}
+
+table MultiMatrix4x4_u8(native_inline, fs_serializer) {
+    values: [Matrix4x4_u8];
+}
+
+table MultiVector2_i64(native_inline, fs_serializer) {
+    values: [Vector2_i64];
+}
+
+table MultiVector3_i64(native_inline, fs_serializer) {
+    values: [Vector3_i64];
+}
+
+table MultiVector4_i64(native_inline, fs_serializer) {
+    values: [Vector4_i64];
+}
+
+table MultiQuaternion_i64(native_inline, fs_serializer) {
+    values: [Quaternion_i64];
+}
+
+table MultiMatrix2x2_i64(native_inline, fs_serializer) {
+    values: [Matrix2x2_i64];
+}
+
+table MultiMatrix2x3_i64(native_inline, fs_serializer) {
+    values: [Matrix2x3_i64];
+}
+
+table MultiMatrix2x4_i64(native_inline, fs_serializer) {
+    values: [Matrix2x4_i64];
+}
+
+table MultiMatrix3x2_i64(native_inline, fs_serializer) {
+    values: [Matrix3x2_i64];
+}
+
+table MultiMatrix3x3_i64(native_inline, fs_serializer) {
+    values: [Matrix3x3_i64];
+}
+
+table MultiMatrix3x4_i64(native_inline, fs_serializer) {
+    values: [Matrix3x4_i64];
+}
+
+table MultiMatrix4x2_i64(native_inline, fs_serializer) {
+    values: [Matrix4x2_i64];
+}
+
+table MultiMatrix4x3_i64(native_inline, fs_serializer) {
+    values: [Matrix4x3_i64];
+}
+
+table MultiMatrix4x4_i64(native_inline, fs_serializer) {
+    values: [Matrix4x4_i64];
+}
+
+table MultiVector2_u64(native_inline, fs_serializer) {
+    values: [Vector2_u64];
+}
+
+table MultiVector3_u64(native_inline, fs_serializer) {
+    values: [Vector3_u64];
+}
+
+table MultiVector4_u64(native_inline, fs_serializer) {
+    values: [Vector4_u64];
+}
+
+table MultiQuaternion_u64(native_inline, fs_serializer) {
+    values: [Quaternion_u64];
+}
+
+table MultiMatrix2x2_u64(native_inline, fs_serializer) {
+    values: [Matrix2x2_u64];
+}
+
+table MultiMatrix2x3_u64(native_inline, fs_serializer) {
+    values: [Matrix2x3_u64];
+}
+
+table MultiMatrix2x4_u64(native_inline, fs_serializer) {
+    values: [Matrix2x4_u64];
+}
+
+table MultiMatrix3x2_u64(native_inline, fs_serializer) {
+    values: [Matrix3x2_u64];
+}
+
+table MultiMatrix3x3_u64(native_inline, fs_serializer) {
+    values: [Matrix3x3_u64];
+}
+
+table MultiMatrix3x4_u64(native_inline, fs_serializer) {
+    values: [Matrix3x4_u64];
+}
+
+table MultiMatrix4x2_u64(native_inline, fs_serializer) {
+    values: [Matrix4x2_u64];
+}
+
+table MultiMatrix4x3_u64(native_inline, fs_serializer) {
+    values: [Matrix4x3_u64];
+}
+
+table MultiMatrix4x4_u64(native_inline, fs_serializer) {
+    values: [Matrix4x4_u64];
+}
+
+table MultiVector2_f64(native_inline, fs_serializer) {
+    values: [Vector2_f64];
+}
+
+table MultiVector3_f64(native_inline, fs_serializer) {
+    values: [Vector3_f64];
+}
+
+table MultiVector4_f64(native_inline, fs_serializer) {
+    values: [Vector4_f64];
+}
+
+table MultiQuaternion_f64(native_inline, fs_serializer) {
+    values: [Quaternion_f64];
+}
+
+table MultiMatrix2x2_f64(native_inline, fs_serializer) {
+    values: [Matrix2x2_f64];
+}
+
+table MultiMatrix2x3_f64(native_inline, fs_serializer) {
+    values: [Matrix2x3_f64];
+}
+
+table MultiMatrix2x4_f64(native_inline, fs_serializer) {
+    values: [Matrix2x4_f64];
+}
+
+table MultiMatrix3x2_f64(native_inline, fs_serializer) {
+    values: [Matrix3x2_f64];
+}
+
+table MultiMatrix3x3_f64(native_inline, fs_serializer) {
+    values: [Matrix3x3_f64];
+}
+
+table MultiMatrix3x4_f64(native_inline, fs_serializer) {
+    values: [Matrix3x4_f64];
+}
+
+table MultiMatrix4x2_f64(native_inline, fs_serializer) {
+    values: [Matrix4x2_f64];
+}
+
+table MultiMatrix4x3_f64(native_inline, fs_serializer) {
+    values: [Matrix4x3_f64];
+}
+
+table MultiMatrix4x4_f64(native_inline, fs_serializer) {
+    values: [Matrix4x4_f64];
+}
+
+///-----------------------------------------------------------------------------
